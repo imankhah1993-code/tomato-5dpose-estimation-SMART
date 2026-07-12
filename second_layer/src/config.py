@@ -1,0 +1,13 @@
+# src/config.py
+
+MODEL_PATH = "models/best.pt"
+
+CONFIDENCE = 0.4
+IMAGE_SIZE = 1280
+
+DEPTH_THRESHOLD = 0.03
+
+MIN_POINTS = 100
+MIN_TOMATO_POINTS = 50
+
+ALPHA = 0.20
