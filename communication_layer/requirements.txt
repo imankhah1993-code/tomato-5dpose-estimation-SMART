@@ -17,3 +17,4 @@ pyzed-sl
 # ROS2 Python bridge
 cv_bridge
 ```
+rclpy, sensor_msgs, and std_srvs are not installed with pip. They come from your ROS 2 installation.
