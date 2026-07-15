@@ -1,4 +1,5 @@
 import rclpy
+import cv2
 from rclpy.node import Node
 
 from sensor_msgs.msg import Image
@@ -126,7 +127,10 @@ class TomatoVisionNode(Node):
         )
 
         self.image_pub.publish(msg)
-
+        
+        # Display locally
+        cv2.imshow("Tomato Vision", img)
+        cv2.waitKey(1)
 
 
     def next_callback(
