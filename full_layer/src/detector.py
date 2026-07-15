@@ -12,7 +12,7 @@ class TomatoDetector:
 
         results = self.model(frame, conf=0.4, imgsz=1280)
 
-        annotated = results[0].plot(labels=False)
+        annotated = results[0].plot(labels=False, conf=False)
 
         detections = []
 
