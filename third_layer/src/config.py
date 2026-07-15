@@ -1,4 +1,4 @@
-MODEL_PATH = "best.pt"
+MODEL_PATH = "models/best.pt"
 
 CONFIDENCE = 0.4
 IMAGE_SIZE = 1280
