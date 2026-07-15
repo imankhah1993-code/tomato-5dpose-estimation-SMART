@@ -72,11 +72,7 @@ class GeometryEstimator:
         )
 
 
-        if None in [
-            stem3d,
-            center3d,
-            sphere3d
-        ]:
+        if stem3d is None or center3d is None or sphere3d is None:
             return None
 
 
